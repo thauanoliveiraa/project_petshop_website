@@ -1,0 +1,120 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PegasusPetshop
+build_property.RootNamespace = PegasusPetshop
+build_property.ProjectDir = C:\Users\expocli\Documents\C#\PegasusPetshop\PegasusPetshop\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\expocli\Documents\C#\PegasusPetshop\PegasusPetshop
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Clients/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xDcmlhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Clients/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Clients/indexClientes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xpbmRleENsaWVudGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Clients/VerificarDeletar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xWZXJpZmljYXJEZWxldGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Petshop/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c2hvcFxDcmlhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Petshop/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c2hvcFxFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Petshop/Escolha.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c2hvcFxFc2NvbGhhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Petshop/EscolhaExibir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c2hvcFxFc2NvbGhhRXhpYmlyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Petshop/Estoque.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c2hvcFxFc3RvcXVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Petshop/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c2hvcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Petshop/VerificarDeletar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c2hvcFxWZXJpZmljYXJEZWxldGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Pets/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xDcmlhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Pets/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Pets/indexPets.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xpbmRleFBldHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Pets/VerificarDeletar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xWZXJpZmljYXJEZWxldGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Products/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JpYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Products/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Products/indexProdutos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcaW5kZXhQcm9kdXRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Products/VerificarDeletar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcVmVyaWZpY2FyRGVsZXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/expocli/Documents/C\#/PegasusPetshop/PegasusPetshop/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3xgrv6o36k
