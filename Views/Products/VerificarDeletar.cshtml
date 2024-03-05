@@ -1,0 +1,12 @@
+@model ProdutoModel
+
+@{
+    ViewData["Title"] = "Página de Produtos";
+}
+<div class="text-center">
+    <h1 class="display-4">Realmente deseja Deletar O Produto (@Model.Nome)?</h1>
+    <td>
+        <a role="button" class="btn btn-danger" asp-route-id="@Model.CodigoDeBarra" asp-controller="Products" asp-action="Deletar">Confirmar</a> <!-- BUG FIXING : Mude o nome da action caso dê problema ou então vá na controller digite ctrl + F e digite "var funcionario" que o comentario lá irá ajudar -->
+        <a role="button" class="btn btn-secondary" asp-controller="Products" asp-action="IndexProdutos">Voltar</a>
+    </td>
+</div>

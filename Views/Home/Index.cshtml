@@ -1,0 +1,379 @@
+﻿@{
+    ViewData["Title"] = "Página Inicial";
+}
+
+<!-- @{
+    ViewData["Title"] = "Página Inicial";
+    var hora = DateTime.Now.Hour;
+    var message = "";
+    if (hora >= 12)
+    {
+        message = "boa tarde";
+    }
+    else if (hora >= 18)
+    {
+        message = "boa noite";
+    }
+    else
+    {
+        message = "bom dia";
+    }
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bem vindo(a), @message!</h1>
+    <h5>Sistema de Cadastro de usuários</h5>
+</div> -->
+
+<section id="apresentation">
+
+    <a href="#myFooter"><img
+            src="https://media.discordapp.net/attachments/985328330435870764/1033833566049681408/logo_pegasus.png?width=760&height=427"
+            alt="Logo Pegasus Petshop" class="pegasus-logo"></a>
+</section>
+
+       <section id="services">
+            <h1 class="titles">Principais Serviços</h1>
+                <ul class="ul-cards-services">
+                    <li class="li-cards-services">
+                        <div class="container">
+                            <!-- Card 1 -->
+                            <div class="card card-1">
+                                <!-- card-header -->
+                                <div class="card-header">
+                                    <img src="https://www.hospitalvetitaquera.com.br/wp-content/uploads/2020/07/estetica.png"
+                                        class="card-img" />
+                                </div>
+
+                                <div>
+                                    <!-- card-header -->
+
+                                    <!-- card-body -->
+                                    <div class="card-body">
+                                        <h3 class="card-local">Banho & Tosa</h3>
+                                        <p class="card-texto">
+                                            Banho, hidratação, tosa higiênica, tosa de cachorros de diversas raças e
+                                            outros serviços feitos por profissionais parceiros especialistas no assunto.
+                                        </p>
+                                    </div>
+                                    <!-- card-body -->
+
+                                    <!-- card-footer -->
+                                    <div class="card-footer">
+                                        <a href="#">Ver Mais</a>
+                                    </div>
+                                    <!-- card-footer -->
+                                </div>
+                                <!-- Card 1 -->
+                            </div>
+                    </li>
+
+
+
+                    <li class="li-cards-services">
+                        <div class="container">
+                            <!-- Card 1 -->
+                            <div class="card card-1">
+                                <!-- card-header -->
+                                <div class="card-header">
+                                    <img src="data:image/jpeg;base64,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"
+                                        class="card-img" />
+                                </div>
+
+                                <div>
+                                    <!-- card-header -->
+
+                                    <!-- card-body -->
+                                    <div class="card-body">
+                                        <h3 class="card-local">Veterinário</h3>
+                                        <p class="card-texto">
+                                            A saúde do seu melhor amigo em boas mãos, consultas, exames e vacinas com
+                                            médicos-veterinários parceiros.</p>
+                                    </div>
+                                    <!-- card-body -->
+
+                                    <!-- card-footer -->
+                                    <div class="card-footer">
+                                        <a href="#">Ver Mais</a>
+                                    </div>
+                                    <!-- card-footer -->
+                                </div>
+                                <!-- Card 1 -->
+                            </div>
+                    </li>
+
+
+
+                    <li class="li-cards-services">
+                        <div class="container">
+                            <!-- Card 1 -->
+                            <div class="card card-1">
+                                <!-- card-header -->
+                                <div class="card-header">
+                                    <img src="https://www.petz.com.br/blog/wp-content/uploads/2018/08/adestramento3.jpg"
+                                        class="card-img" />
+                                </div>
+
+                                <div>
+                                    <!-- card-header -->
+
+                                    <!-- card-body -->
+                                    <div class="card-body">
+                                        <h3 class="card-local">Adestramento</h3>
+                                        <p class="card-texto">
+                                            Adestradores profissionais e especialistas em ensinar seu pet por meio de
+                                            comandos, atividades direcionadas, reforço positivo, recompensa e muita
+                                            diversão. </p>
+                                    </div>
+                                    <!-- card-body -->
+
+                                    <!-- card-footer -->
+                                    <div class="card-footer">
+                                        <a href="#">Ver Mais</a>
+                                    </div>
+                                    <!-- card-footer -->
+                                </div>
+                                <!-- Card 1 -->
+                            </div>
+                    </li>
+
+
+
+                    <li class="li-cards-services">
+                        <div class="container">
+                            <!-- Card 1 -->
+                            <div class="card card-1">
+                                <!-- card-header -->
+                                <div class="card-header">
+                                    <img src="https://comportpet.com.br/wp-content/uploads/2020/03/img_1.jpg"
+                                        class="card-img" />
+                                </div>
+
+                                <div>
+                                    <!-- card-header -->
+
+                                    <!-- card-body -->
+                                    <div class="card-body">
+                                        <h3 class="card-local">Creche Pet</h3>
+                                        <p class="card-texto">
+                                            A creche para cachorro é uma solução personalizada para quem não quer deixar
+                                            pet sozinho em casa durante o dia. Brincadeiras, cuidados e muito carinho!
+                                        </p>
+                                    </div>
+                                    <!-- card-body -->
+
+                                    <!-- card-footer -->
+                                    <div class="card-footer">
+                                        <a href="#">Ver Mais</a>
+                                    </div>
+                                    <!-- card-footer -->
+                                </div>
+                                <!-- Card 1 -->
+                            </div>
+                    </li>
+                </ul>
+
+                <div class="card-footer-after">
+                    <a href="#">Ver outros serviços</a>
+                </div>
+        </section>
+        
+<section id="topbrands">
+    <h1 class="titles">Principais Marcas</h1>
+        <ul class="ul-cards-services">
+            <li class="li-cards-services">
+                <div class="container">
+                    <!-- Card 1 -->
+                    <div class="card-topbrands card-1">
+                        <!-- card-header -->
+                        <div class="card-header">
+                            <img src="https://logolook.net/wp-content/uploads/2022/08/Whiskas-Emblem.png"
+                                class="card-img-topbrands" />
+                        </div>
+
+                        <div>
+                            <!-- card-header -->
+
+                            <!-- card-body -->
+                            <div class="card-body">
+                                <h3 class="card-local">Whiskas</h3>
+                            </div>
+                            <!-- card-body -->
+                        </div>
+                        <!-- Card 1 -->
+                    </div>
+            </li>
+
+            <li class="li-cards-services">
+                <div class="container">
+                    <!-- Card 1 -->
+                    <div class="card-topbrands card-1">
+                        <!-- card-header -->
+                        <div class="card-header">
+                            <img src="https://www.premierpet.com.br/wp-content/uploads/2020/09/prm_gpe_rgb_pos-1-1024x409-1.png"
+                                class="card-img-topbrands" />
+                        </div>
+
+                        <div>
+                            <!-- card-header -->
+
+                            <!-- card-body -->
+                            <div class="card-body">
+                                <h3 class="card-local">Golden</h3>
+                            </div>
+                            <!-- card-body -->
+                        </div>
+                        <!-- Card 1 -->
+                    </div>
+            </li>
+
+            <li class="li-cards-services">
+                <div class="container">
+                    <!-- Card 1 -->
+                    <div class="card-topbrands card-1">
+                        <!-- card-header -->
+                        <div class="card-header">
+                            <img src="https://http2.mlstatic.com/D_NQ_NP_662771-MLB31364656960_072019-O.jpg"
+                                class="card-img-topbrands" />
+                        </div>
+
+                        <div>
+                            <!-- card-header -->
+
+                            <!-- card-body -->
+                            <div class="card-body">
+                                <h3 class="card-local">Bravecto</h3>
+                            </div>
+                            <!-- card-body -->
+                        </div>
+                        <!-- Card 1 -->
+                    </div>
+            </li>
+
+            <li class="li-cards-services">
+                <div class="container">
+                    <!-- Card 1 -->
+                    <div class="card-topbrands card-1">
+                        <!-- card-header -->
+                        <div class="card-header">
+                            <img src="https://amepettatix.vteximg.com.br/arquivos/logogranplus.png?v=637768349451430000"
+                                class="card-img-topbrands" />
+                        </div>
+
+                        <div>
+                            <!-- card-header -->
+
+                            <!-- card-body -->
+                            <div class="card-body">
+                                <h3 class="card-local">Gran Plus</h3>
+                            </div>
+                            <!-- card-body -->
+                        </div>
+                        <!-- Card 1 -->
+                    </div>
+            </li>
+        </ul>
+
+
+        <ul class="ul-cards-services">
+            <li class="li-cards-services">
+                <div class="container">
+                    <!-- Card 1 -->
+                    <div class="card-topbrands card-1">
+                        <!-- card-header -->
+                        <div class="card-header">
+                            <img src="https://cobasi.vteximg.com.br/arquivos/marcas_exclusivas_logo_myhug.png?v=637852818107370000"
+                                class="card-img-topbrands" />
+                        </div>
+
+                        <div>
+                            <!-- card-header -->
+
+                            <!-- card-body -->
+                            <div class="card-body">
+                                <h3 class="card-local">MyHug</h3>
+                            </div>
+                            <!-- card-body -->
+                        </div>
+                        <!-- Card 1 -->
+                    </div>
+            </li>
+
+
+            <li class="li-cards-services">
+                <div class="container">
+                    <!-- Card 1 -->
+                    <div class="card-topbrands card-1">
+                        <!-- card-header -->
+                        <div class="card-header">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Royal-Canin-Logo.svg/2560px-Royal-Canin-Logo.svg.png"
+                                class="card-img-topbrands" />
+                        </div>
+
+                        <div>
+                            <!-- card-header -->
+
+                            <!-- card-body -->
+                            <div class="card-body">
+                                <h3 class="card-local">Royal Canin</h3>
+                            </div>
+                            <!-- card-body -->
+                        </div>
+                        <!-- Card 1 -->
+                    </div>
+            </li>
+
+
+            <li class="li-cards-services">
+                <div class="container">
+                    <!-- Card 1 -->
+                    <div class="card-topbrands card-1">
+                        <!-- card-header -->
+                        <div class="card-header">
+                            <img src="https://seeklogo.com/images/H/hills-logo-239D15D1FB-seeklogo.com.png"
+                                class="card-img-topbrands" />
+                        </div>
+
+                        <div>
+                            <!-- card-header -->
+
+                            <!-- card-body -->
+                            <div class="card-body">
+                                <h3 class="card-local">Hills</h3>
+                            </div>
+                            <!-- card-body -->
+                        </div>
+                        <!-- Card 1 -->
+                    </div>
+            </li>
+
+
+            <li class="li-cards-services">
+                <div class="container">
+                    <!-- Card 1 -->
+                    <div class="card-topbrands card-1">
+                        <!-- card-header -->
+                        <div class="card-header">
+                            <img src="https://www.premierpet.com.br/wp-content/uploads/2021/02/prm_psp_rgb_pos-1024x544.png"
+                                class="card-img-topbrands" />
+                        </div>
+
+                        <div>
+                            <!-- card-header -->
+
+                            <!-- card-body -->
+                            <div class="card-body">
+                                <h3 class="card-local">Premier</h3>
+                            </div>
+                            <!-- card-body -->
+                        </div>
+                        <!-- Card 1 -->
+                    </div>
+            </li>
+        </ul>
+</section>
+
+<!-- <div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div> -->

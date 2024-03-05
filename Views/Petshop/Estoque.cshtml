@@ -1,0 +1,74 @@
+<!-- 
+
+CNPJ VARCHAR(20) NOT NULL,
+    CONSTRAINT FK_FornecedoresProdutos FOREIGN KEY (CNPJ) REFERENCES Fornecedores (CNPJ),
+	ClasseDoProduto VARCHAR(30) NOT NULL, -- exemplo : limpeza, banho, tosa
+    Nome VARCHAR(100) NOT NULL,
+    Descricao VARCHAR(200) NOT NULL,
+    ValorDeCompra DECIMAL(7,2) NOT NULL,
+    ValorDeVenda DECIMAL(7,2) NOT NULL,
+    DataDeEntrada DATE NOT NULL,
+    DataDeFabricacao DATE NOT NULL,
+    DataDeValidade DATE NOT NULL, 
+    Lote INT(5) NOT NULL,
+	CodigoDeBarra INT(18) PRIMARY KEY NOT NULL, -- data e ano de chegada (ex: 20020325) + lote (ex:A22) + id do produto (ex: 1, 2, 3) 
+    Peso DECIMAL(7,2) DEFAULT NULL,
+    QuantidadeEmEstoque INT(100) NOT NULL, -- MAXIMO 900
+    QuantidadeMinima INT(100) NOT NULL -- MINIMO 150    
+-->
+
+@model List<PetshopModel>
+<div class="text-center">
+    <h2>Estoque de produtos</h2>
+   
+    <br>
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-outline-primary" role="button" asp-controller="Petshop" asp-action="Criar">Adicionar Funcionario</a>
+    </div>
+
+    <br>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#Codigo de barra</th>
+                <th scope="col">CNPJ</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Classe</th>
+                <th scope="col">Valor</th>
+                <th scope="col">Data de validade</th>
+                <th scope="col">Quantidade em estoque</th>     
+            </tr>
+        </thead>
+        <tbody>
+            @if(Model != null && Model.Any()){
+               int i = 1;
+                foreach(PetshopModel funcionario in Model){
+                    <tr>
+                        <th scope="row">@i</th>
+                        <td>@funcionario.Nome</td>
+
+                        <td>@funcionario.Genero</td>
+
+                        <td>@funcionario.Cargo</td>
+
+                        <td>@funcionario.Salario</td>
+
+                        <td>@funcionario.Contato</td>
+
+                        <td>@funcionario.Email</td>
+
+                        <td>@funcionario.Endereco</td>
+
+                        <td>
+                            <a role="button" class="btn btn-primary" asp-route-Id="@funcionario.Id" asp-controller="Petshop" asp-action="Editar">Editar</a>
+                            <a role="button" class="btn btn-danger"  asp-controller="Petshop" asp-action="VerificarDeletar">Deletar</a>
+                        </td>
+                    </tr>    
+                    i++;     
+                }
+            }
+        </tbody>
+    </table>
+</div>

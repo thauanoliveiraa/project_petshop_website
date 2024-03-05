@@ -1,0 +1,146 @@
+@{
+    var hora = DateTime.Now.Hour;
+    var message = "";
+    if (hora >= 6 && hora <= 11)
+    {
+        message = "Bom Dia";
+    }
+    else if (hora >= 12 && hora <= 18)
+    {
+        message = "Boa Tarde";
+    }
+    else
+    {
+        message = "Boa Noite";
+    }
+}
+
+<div class="text-center">
+    <h1 class="titles">Olá, @message! Selecione o que exibir</h1>
+</div>
+<ul class="ul-cards-choice">    
+    <li class="li-cards-services">
+        <div class="container">
+            <!-- Card 1 -->
+            <div class="card card-1">
+                <!-- card-header -->
+                <div class="card-header">
+                    <img src="https://www.petshop3p.com.br/images/produtos_1.png" class="card-img" />
+                </div>
+
+                <div>
+                    <!-- card-header -->
+
+                    <!-- card-body -->
+                    <div class="card-body">
+                        <h3 class="card-local">Produtos</h3>
+                        <p class="card-texto">
+                            O que seria de nós sem os nossos produtos...
+                        </p>
+                    </div>
+                    <!-- card-body -->
+
+                    <!-- card-footer -->
+                    <div class="card-footer">
+                        <a asp-area="" asp-controller="Products" asp-action="IndexProdutos">Exibir</a>
+                    </div>
+                    <!-- card-footer -->
+                </div>
+                <!-- Card 1 -->
+            </div>
+    </li>
+
+    <li class="li-cards-services">
+        <div class="container">
+            <!-- Card 1 -->
+            <div class="card card-1">
+                <!-- card-header -->
+                <div class="card-header">
+                    <img src="https://petshopbusiness.com.br/files/2017/05/funcionarios.jpg" class="card-img" />
+                </div>
+
+                <div>
+                    <!-- card-header -->
+
+                    <!-- card-body -->
+                    <div class="card-body">
+                        <h3 class="card-local">Funcionários</h3>
+                        <p class="card-texto">
+                            Os funcionários são o coração da nossa empresa.
+                        </p>
+                    </div>
+                    <!-- card-body -->
+
+                    <!-- card-footer -->
+                    <div class="card-footer">
+                        <a asp-area="" asp-controller="Petshop" asp-action="Index">Exibir</a>
+                    </div>
+                    <!-- card-footer -->
+                </div>
+                <!-- Card 1 -->
+            </div>
+    </li>
+
+    <li class="li-cards-services">
+        <div class="container">
+            <!-- Card 1 -->
+            <div class="card card-1">
+                <!-- card-header -->
+                <div class="card-header">
+                    <img src="https://www.dataon.com.br/wp-content/uploads/2021/05/clientes.jpeg" class="card-img" />
+                </div>
+
+                <div>
+                    <!-- card-header -->
+
+                    <!-- card-body -->
+                    <div class="card-body">
+                        <h3 class="card-local">Clientes</h3>
+                        <p class="card-texto">
+                            Os clientes nos enchem de vida a cada visita, seus pets ainda mais.
+                        </p>
+                    </div>
+                    <!-- card-body -->
+
+                    <!-- card-footer -->
+                    <div class="card-footer">
+                        <a asp-area="" asp-controller="Clients" asp-action="IndexClientes">Exibir</a>
+                    </div>
+                    <!-- card-footer -->
+                </div>
+                <!-- Card 1 -->
+            </div>
+    </li>
+
+    <li class="li-cards-services">
+        <div class="container">
+            <!-- Card 1 -->
+            <div class="card card-1">
+                <!-- card-header -->
+                <div class="card-header">
+                    <img src="https://petaporterco.com.br/wp-content/uploads/2022/02/petshop-de-luxo.jpg" class="card-img" />
+                </div>
+
+                <div>
+                    <!-- card-header -->
+
+                    <!-- card-body -->
+                    <div class="card-body">
+                        <h3 class="card-local">Pets</h3>
+                        <p class="card-texto">
+                            Pets, quem não ama nossos bichinhos ?
+                        </p>
+                    </div>
+                    <!-- card-body -->
+
+                    <!-- card-footer -->
+                    <div class="card-footer">
+                        <a asp-area="" asp-controller="Pets" asp-action="IndexPets">Exibir</a>
+                    </div>
+                    <!-- card-footer -->
+                </div>
+                <!-- Card 1 -->
+            </div>
+    </li>
+</ul>
+

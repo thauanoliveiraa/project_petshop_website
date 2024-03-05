@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 14px;
+  position: relative;
+  min-height: 100%;
+}
+
+body::-webkit-scrollbar {
+  width: 9px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: rgb(255, 255, 255);
+
+}
+
+body::-webkit-scrollbar-thumb {
+  width: 2px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+ /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/* HEADER */
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a {
+  color: #0077cc;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+
+/* MAIN */
+
+.titles {
+  text-align: left;
+  font-size: 30px;
+  margin-left: -50px;
+}
+
+/* SECTION APRESENTATION */
+#apresentation {
+  text-align: center;
+  background-color: #ffffff;
+ /* background-blend-mode: luminosity; */
+  height: 350px;
+  margin-top: -15px;
+  padding-bottom: 90px;
+  border: 5px;
+  /* -webkit-box-shadow: 0px 8px 22px 1px rgba(0,0,0,0.62); 
+  box-shadow: 0px 8px 22px 1px rgba(0,0,0,0.62); */
+}
+
+.pegasus-logo {
+  width: 500px;
+  height: 300px;
+  padding-top: 10px;
+}
+
+
+.pegasus-logo:hover {
+  transform: scale3d(1.1, 1.1, 1);
+  cursor: default;
+}
+
+/* SECTION SERVICES */
+#services {
+  background-color: #ffffff;
+  background-blend-mode: luminosity;
+  height: 800px;
+  padding-top: 50px;
+  padding-bottom: 90px;
+  border-top: 1px solid rgb(197, 195, 195);
+  border-bottom: 1px solid rgb(197, 195, 195);
+}
+
+.ul-cards-services {
+  list-style: none;
+  display: inline-flex;
+  margin-left: -125px;
+}
+
+.ul-cards-choice{
+  list-style: none;
+  display: inline-flex;
+  margin-left: -125px;
+}
+
+.ul-cards-choice2{
+  list-style: none;
+  display: inline-flex;
+  margin-left: 220px;
+}
+/* Card */
+.card {
+  width: 258px;
+  height: 460px;
+  margin: 25px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  transition: 0.3s;
+}
+
+/* Card Header*/
+.card-header {
+  width: 100%;
+  height: 200px;
+}
+
+.card-img {
+  min-width: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.card-img-topbrands {
+  width: 200px;
+  height: 150px;
+  padding-top: 30px;
+  padding-left: 32px;
+}
+
+/* Card Body */
+.card-body {
+  height: 170px;
+  padding: 15px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.card-local {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.card-titulo {
+  font-size: 32px;
+  margin: 15px 0;
+}
+
+.card-texto {
+  font-size: 12px;
+  width: 220px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Card Footer */
+.card-footer {
+  margin-top: 10px;
+  text-align: center;
+  background-color: #000;
+}
+
+.card-footer-after {
+  text-align: center;
+  border: #000;
+  width: 40%;
+  background-color: blue;
+  margin-top: 22px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  margin-right: 200px;
+  margin-left: 332px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.card-footer a {
+  color: #fff;
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.card-footer-after a {
+  color: #fff;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* Cores Cards */
+.card-1 .card-footer {
+  background-color: #2740d1;
+}
+
+.card-1 .card-local {
+  color: #2740d1;
+}
+
+.card-2 .card-footer {
+  background-color: #d12761;
+}
+
+.card-2 .card-local {
+  color: #d12761;
+}
+
+.card-3 .card-footer {
+  background-color: #00c702;
+}
+
+.card-3 .card-local {
+  color: #00c702;
+}
+
+/* Animação Hover */
+.card:hover {
+  transform: scale3d(1.1, 1.1, 1);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 22px 40px 4px rgba(0,0,0,0.27); 
+  box-shadow: 0px 10px 13px -7px #000000, 0px 22px 40px 4px rgba(0,0,0,0.27);
+}
+
+.card-topbrands:hover {
+  transform: scale3d(1.1, 1.1, 1);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 22px 40px 4px rgba(0,0,0,0.27); 
+  box-shadow: 0px 10px 13px -7px #000000, 0px 22px 40px 4px rgba(0,0,0,0.27);
+}
+
+.card-footer-after:hover {
+  transform: scale3d(1.1, 1.1, 1);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 22px 40px 4px rgba(0,0,0,0.27); 
+  box-shadow: 0px 10px 13px -7px #000000, 0px 22px 40px 4px rgba(0,0,0,0.27);
+}
+
+
+/* SECTION TOPBRANDS */
+
+#topbrands {
+  background-color: #ffffff4d;
+  background-blend-mode: luminosity;
+  height: 700px;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+/* CARDS */
+.card-topbrands {
+  width: 258px;
+  height: 250px;
+  margin: 25px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  transition: 0.3s;
+}
+
+/* Cores Cards */
+.card-1 .card-footer-topbrands {
+  background-color: #2740d1;
+} 
+
+/* FOOTER CONFIGURATIONS */
+
+#CopyrightMessage {
+  padding-left: 40px;
+}
+
+#All-rights-reserved{
+  text-decoration: none;
+}
+
+#All-rights-reserved:hover{
+  color: #2740d1;
+}
+
+/* NAV HOVER EFFECTS */
+
+.nav-link:hover{
+  border-radius: 2px;
+  background-color: rgb(216, 216, 216);
+  color: black;
+  color: rgb(139, 138, 138);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}

@@ -1,0 +1,59 @@
+@model PetshopModel
+
+@{
+    ViewData["Title"] = "Página de Funcionarios";
+}
+<div class="text-center">
+    <h1 class="display-4">Editar Funcionario</h1>
+ 
+</div>
+
+<!-- AQUI TIRA TODOS OS ASP FOR -->
+<form method="post" asp-controller="Petshop" asp-action="Atualizar">
+    <input type="hidden" asp-for="Id"/>
+    <div class="mb-3">
+        <label for="nome">Nome</label>
+        <input type="text" asp-for="Nome" class="form-control" id="nome" placeholder="Insira o nome" required>
+        @Html.ValidationMessageFor(x => x.Nome)
+    </div>
+
+    <div class="mb-3">
+        <label for="genero">Gênero</label>
+        <input type="text" asp-for="Genero" class="form-control" id="nome" placeholder="M ou F" required>
+        @Html.ValidationMessageFor(x => x.Genero)
+    </div>
+
+    <div class="mb-3">
+        <label for="cargo">Cargo</label>
+        <input type="text" asp-for="Cargo" class="form-control" id="email" placeholder="Ex: Admnistrador, Vendedor, Banhista, Tosador, Veterinário, Recepcionista" required>
+        @Html.ValidationMessageFor(x => x.Cargo)
+    </div>
+
+    <div class="mb-3">
+        <label for="salario">Salario</label>
+        <input type="text" asp-for="Salario" class="form-control" id="email" placeholder="R$ 0000.00" required>
+        @Html.ValidationMessageFor(x => x.Salario)
+    </div>
+
+    <div class="mb-3">
+        <label for="telefone">Contato</label>
+        <input type="text" asp-for="Contato" class="form-control" id="telefone" placeholder="(XX) X XXXX-XXXX" required>
+        @Html.ValidationMessageFor(x => x.Contato)
+    </div>
+
+    <div class="mb-3">
+        <label for="email">E-mail</label>
+        <input type="text" asp-for="Email" class="form-control" id="email" placeholder="Insira o e-mail" required>
+        @Html.ValidationMessageFor(x => x.Email)
+    </div>
+
+    <div class="mb-3">
+        <label for="endereco">Endereço</label>
+        <input type="text" asp-for="Endereco" class="form-control" id="email" placeholder="Insira o endereço" required>
+        @Html.ValidationMessageFor(x => x.Endereco)
+    </div>
+
+    <button type="submit" class="btn btn-primary">Alterar</button>
+    <a role="submit" class="btn btn-secondary" asp-controller="Petshop" asp-action="Index">Voltar</a>
+</form>
+

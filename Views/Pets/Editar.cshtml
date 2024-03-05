@@ -1,0 +1,41 @@
+@model PetsModel
+
+@{
+    ViewData["Title"] = "Página de Pets";
+}
+<div class="text-center">
+    <h1 class="display-4">Editar Pet</h1>
+ 
+</div>
+
+<!-- AQUI TIRA TODOS OS ASP FOR -->
+<form method="post" asp-controller="Pets" asp-action="Atualizar">
+    <input type="hidden" asp-for="id"/>
+
+    <div class="mb-3">
+        <label for="idDono">Id Dono</label>
+        <input type="text" class="form-control" asp-for="idDono" id="idDono" placeholder="Insira o id do dono" required>
+        @Html.ValidationMessageFor(x => x.idDono)
+    </div>
+
+    <div class="mb-3">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" asp-for="Nome" id="nome" placeholder="Insira o nome do pet" required>
+        @Html.ValidationMessageFor(x => x.Nome)
+    </div>
+
+    <div class="mb-3">
+        <label for="tipoPet">Tipo do pet</label>
+        <input type="text" class="form-control" asp-for="TipoPet" id="tipoPet" placeholder="Insira o tipo do pet (ex: Cachorro, Gato...)" required>
+        @Html.ValidationMessageFor(x => x.TipoPet)
+    </div>
+
+    <div class="mb-3">
+        <label for="plano">Plano</label>
+        <input type="text" class="form-control" asp-for="Plano" id="plano" placeholder="Insira o plano de saúde do pet" required>
+        @Html.ValidationMessageFor(x => x.Plano)
+    </div>
+
+    <button type="submit" class="btn btn-primary">Alterar</button>
+    <a role="submit" class="btn btn-secondary" asp-controller="Pets" asp-action="IndexPets">Voltar</a>
+</form>
